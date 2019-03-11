@@ -3,6 +3,6 @@ resource "aws_route_table" "dev" {
   
    route {
       cidr_block = "0.0.0.0/0"
-      gateway_id = "${aws_internet_gateway.id}"
+      gateway_id = "${aws_internet_gateway.dev.id}"
    }
   }  
