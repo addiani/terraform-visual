@@ -1,6 +1,6 @@
 variable "ami" {}
 variable "aws_instance" {}
-variable "key_name" {} {}
+variable "key_name" {} 
 
 variable "keyname" {}
 variable "Name" {}
